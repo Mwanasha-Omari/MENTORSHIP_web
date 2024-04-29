@@ -1,0 +1,302 @@
+
+body {
+    font-family: fantasy;
+    background-color: #fdeb83;
+
+  }
+ 
+  .topnav {
+    background-color: rgb(150, 233, 150);
+    font-family: fantasy;
+    border-radius: 20px;
+    gap: 50px;
+    height: 90px;
+    margin-bottom: 0px;
+    text-decoration: none;
+
+  }
+  
+
+  
+  .topnav {
+    background-color: rgb(150, 233, 150);
+    font-family: fantasy;
+    border-radius: 20px;
+    gap: 50px;
+    height: 90px;
+    text-decoration: none;
+
+  }
+  
+
+  
+  .topnav a {
+    color: black;
+    padding: 28px 140px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .topnav img{
+margin-top: 16px;
+margin-left: 15px;
+
+  }
+  
+  #myGoals{
+display: flex;
+justify-content: space-around;
+margin-top: 0px;
+margin-inline: 600px;
+width: 900px;
+height: 800px;
+background-color: #ffea73;
+border-radius: 20px;
+  }
+  
+  hr{
+    height: 700px;
+    color:black ;
+  }
+  .title{
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+  }
+  #myLinks{
+display:flex ;
+
+  }
+  @media screen and (min-width:535px) and (max-width:720px){
+    .backgroundimage{
+      background-image: url(images/ment.jpg);
+      background-repeat: no-repeat;
+      background-size: 0px 0px;
+      object-fit: cover;
+      }
+      body {
+          font-family: fantasy;
+        }
+       
+        .topnav {
+          background-color: rgb(150, 233, 150);
+          font-family: fantasy;
+          border-radius: 20px;
+          gap: 0px;
+          height: 50px;
+          text-decoration: none;
+          display: none;
+      
+        }
+        
+      
+        
+        .topnav a {
+          color: black;
+           padding: 14px 5px; 
+          text-decoration: none;
+          font-size: 12px;
+          margin-bottom: 30px;
+        }
+        
+        .topnav img{
+      margin-bottom: 16px;
+      margin-left: 15px;
+      
+        }
+        
+        .topnav a.icon {
+          float: right;
+        }
+        
+        .topnav a:hover {
+          background-color:white;
+          color: black;
+        }
+       
+        .active {
+          background-color: #fdeb83;
+          color: white;
+        }
+        .topnav img{
+      margin-right: 100px;
+        }
+        
+        #myGoals{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px;
+      margin-inline: 0px;
+      background-color: #ffeb78;
+      border-radius: 20px;
+        }
+        
+        hr{
+          height: 500px;
+          color:black ;
+        }
+        .title{
+          font-size: 25px;
+          font-weight: 200;
+          text-align: center;
+        }
+        #myLinks{
+display: flex;
+justify-content: center;
+        }
+ 
+ 
+  }
+  @media screen and (min-width:375px) and (max-width:667px){
+    .backgroundimage{
+      background-repeat: no-repeat;
+      background-size: 1800px 950px;
+      object-fit: cover;
+      }
+      body {
+          font-family: fantasy;
+        }
+       
+        .topnav {
+          background-color: rgb(150, 233, 150);
+          font-family: fantasy;
+          border-radius: 20px;
+          gap: 50px;
+          height: 90px;
+          width:1000px;
+          text-decoration: none;
+      
+        }
+        
+      
+        
+        .topnav a {
+          color: black;
+          padding: 1px 80px;
+          /* padding-bottom: 10px; */
+          text-decoration: none;
+          font-size: 15px;
+          /* margin-bottom: 30px; */
+        }
+        
+        .topnav img{
+      margin-top: 16px;
+      margin-left: 15px;
+      
+        }
+        
+        .topnav a.icon {
+          float: right;
+        }
+        
+        .topnav a:hover {
+          background-color:white;
+          color: black;
+        }
+       
+        .active {
+          background-color: #fdeb83;
+          color: white;
+        }
+        .topnav img{
+      margin-right: 200px;
+        }
+        
+        #myGoals{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px;
+      margin-inline: 20px;
+      background-color: #ffeb78;
+      border-radius: 20px;
+        }
+        
+        hr{
+          height: 500px;
+          color:black ;
+        }
+        .title{
+          font-size: 35px;
+          font-weight: 900;
+          text-align: center;
+        }
+        #myLinks{
+      display:flex ;
+      
+        }
+  }
+  @media screen and (min-width:820px) and (max-width:1180px){
+    body {
+      font-family: fantasy;
+      background-color: #fdeb83;
+  
+    }
+   
+    .topnav {
+      background-color: rgb(150, 233, 150);
+      font-family: fantasy;
+      border-radius: 20px;
+      gap: 50px;
+      height: 90px;
+      width: 810px;
+      margin-bottom: 0px;
+      text-decoration: none;
+  
+    }
+    
+  
+    
+    .topnav a {
+      color: black;
+      padding: 1px 40px;
+      padding-bottom: 50px;
+      text-decoration: none;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    
+    .topnav img{
+  margin-top: 16px;
+  margin-left: 15px;
+  
+    }
+    
+    .topnav a.icon {
+      float: right;
+    }
+    
+    
+    .topnav img{
+  margin-right: 200px;
+    }
+    
+    #myGoals{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+  margin-inline: 20px;
+  width: 750px;
+  height: 800px;
+  margin-right: 0px;
+  background-color: #ffea73;
+  border-radius: 20px;
+    }
+    
+    hr{
+      height: 700px;
+      color:black ;
+    }
+    .title{
+      font-size: 35px;
+      font-weight: 900;
+      text-align: center;
+    }
+    #myLinks{
+  display:flex ;
+  
+    }
+
+
+
+  }

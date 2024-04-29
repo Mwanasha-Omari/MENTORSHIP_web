@@ -1,0 +1,888 @@
+body {
+    font-family: fantasy;
+    
+  }
+ 
+  .topnav {
+    background-color: rgb(150, 233, 150);
+    font-family: fantasy;
+    border-radius: 40px;
+    height: 90px;
+    text-decoration: none;
+
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 28px 130px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .topnav img{
+margin-top: 15px;
+margin-left: 16px;
+
+  }
+
+  
+  #signupform {
+/* background-color: rgb(219, 235, 219); */
+border-radius: 50px;
+border: solid black;
+font-family: fantasy;
+width: 1000px;
+height: 900px;
+margin-left: 400px;
+font-size: large;
+
+  }
+  #accountreview span{
+    font-family: fantasy;
+    font-size: large;
+    margin-left: 360px;
+    text-align: center;
+    margin-top: 50px;
+
+  }
+  #signupform a{
+    color: rgb(38, 118, 38);
+    text-decoration: none;
+
+
+  }
+  #myLinks{
+    display:flex ;
+    
+      }
+  #signupform button{
+margin-left: 350px;
+height: 50px;
+width: 300px;
+background-color: #fce87a;
+cursor: pointer;
+border-color: #fce87a;
+font-family: fantasy;
+font-size: large;
+  }
+  #signuppage h2{
+    font-family: fantasy;
+    text-align: center;
+    font-size: larger;
+  }
+#signuppage{
+display: flex;
+gap: 400px;
+justify-content: center;
+font-family: fantasy;
+font-size: x-large;
+border-radius: 50px;
+
+  }
+  #signuppage a{
+    text-decoration:none;
+    font-size: medium;
+    color: rgb(38, 118, 38);
+  }
+  #signupimage img{
+width: 120px;
+height: 120px;
+margin-top: 20px;
+margin-left: 30px;
+
+  }
+  #loginimage img{
+      width: 120px;
+      height: 120px;
+      margin-top: 20px;
+     margin-left: 30px;
+      
+        }
+
+  
+  #signupform input{
+width: 60%;
+height: 50px;
+margin-block: 50px;
+background-color: #fdeb83;
+border: none;
+border-radius: 8px;
+display: grid;
+margin-left: 25%;
+font-size: large;
+margin-left: 180px;
+  }
+ 
+  #loginform input{
+    font-family: fantasy;
+    margin-block: 30px;
+width: 60%;
+height: 60px;
+background-color: #fdeb83;
+border: none;
+border-radius: 8px;
+margin-top: 100px;
+margin-left: 20%;
+font-size: larger;
+
+      }
+      #loginform button{
+        margin-left: 300px;
+        height: 50px;
+        width: 300px;
+        background-color: #fce87a;
+        cursor: pointer;
+        border-color: #fce87a;
+        font-family: fantasy;
+        font-size: large;
+        margin-top: 50px;
+          }
+      #loginform{
+border-radius: 50px;
+font-family: fantasy;
+width: 1000px;
+height: 900px;
+margin-left: 400px;
+font-size: x-large;
+font-size: large;
+border: solid black;
+
+
+      }
+      h2{
+text-align: center;
+      }
+      #landingpage h3{
+color:rgb(44, 73, 44);
+font-size: 50px;
+font-weight: 1000px;
+margin-bottom: 20px;
+font-family: fantasy;
+
+      }
+      #landingpage img{
+        margin-left: 500px;
+        width: 900px;
+        height: 500px;
+        object-fit: cover;
+        margin-top: 20px;
+      }
+      #logo img{
+width: 100px;
+height: 100px;
+object-fit: cover;
+
+      }
+     
+#landingpage p{
+ text-align: center;
+color:rgb(44, 73, 44);
+font-size: 22px; 
+-webkit-line-clamp: 3;
+font-family: fantasy;
+
+  }
+  
+#select {
+display: flex;
+justify-content: space-evenly;
+
+      }
+      #select button{
+width: 150px;
+height:40px;
+border-radius: 15px;
+background-color:#fdeb83 ;
+border:solid 1px rgb(68, 156, 68);
+cursor: pointer;
+
+      }
+      
+      #heading{
+        text-align: center;
+        font-family: fantasy;
+
+
+      }
+      
+     
+      #category{
+        display: flex;
+        gap: 20px;
+        margin-top: 50px;
+        font-family: fantasy;
+
+      }
+      #content{
+margin-top: 21px;
+
+      }
+      .title{
+text-align: center;
+font-family: fantasy;
+
+      }
+       .create{
+        background-color:#fdeb83; 
+        width:900px;
+        height: 600px;
+        border-radius: 10px;
+        margin-left: 400px;
+        font-family: fantasy;
+
+      }
+      .create input{
+        font-family: fantasy;
+        width: 300px;
+        height: 45px;
+        margin-left: 200px;
+        font-size: x-large;
+        border-radius: 10px;
+        border: none;
+        margin-block: 20px;
+
+      }
+      #entertasks input{
+width: 300px;
+height: 50px;
+margin-top: 150px;
+margin-left: 200px;
+font-family: fantasy;
+
+      }
+      #addtasks input{
+        width: 100px;
+        font-size: medium;
+        font-family: fantasy;
+        height: 40px;
+        margin-right: 20px;
+
+      }
+      hr{
+        width: 70%;
+
+      }
+      h3{
+        text-align: center;
+      }
+      .create p{
+        font-size: x-large;
+font-family: fantasy;
+text-align: center;
+
+      }
+      input button{
+       background-color:black;
+       color: white;
+       width:100px ;
+       margin-left: 50%;
+
+      }
+      
+      #title{
+background-color: rgb(104, 201, 104);
+color: white;
+width:1000px;
+height: 90px;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+font-family: fantasy;
+font-size: xx-large;
+
+
+      }
+     
+      fieldset{
+background-color: rgb(104, 201, 104);
+height: 500px;
+width: 800px;
+border-radius: 20px;
+margin-left: 500px;
+border: none;
+margin-top: 100px;
+
+      }
+      #task-counters{
+        margin-bottom: 100px;
+      }
+      @media screen and (min-width:375px) and (max-width:667px){
+        body {
+          font-family: fantasy;
+        }
+       
+        .topnav {
+          background-color: rgb(150, 233, 150);
+          font-family: fantasy;
+          border-radius: 20px;
+          gap: 50px;
+          height: 90px;
+          width: 300px;
+          text-decoration: none;
+      
+        }
+        
+      
+        
+        .topnav a {
+          color: black;
+          padding: 1px 5px;
+          text-decoration: none;
+          font-size: small;
+
+          margin-bottom: 30px;
+        }
+        
+        .topnav img{
+      margin-top: 16px;
+      margin-left: 15px;
+      
+        }
+        .topnav a.icon {
+          float: right;
+        }
+        
+        .topnav a:hover {
+          background-color:white;
+          color: black;
+        }
+       
+        .active {
+          background-color: #fdeb83;
+          color: white;
+        }
+        #signupform {
+      border-radius: 50px;
+      border: solid black;
+      font-family: fantasy;
+      width: 100%;
+      height: 750px;
+      margin-right: 0px;
+      font-size: x-large;
+      
+        }
+        #signupform button{
+      margin-left: 350px;
+      height: 50px;
+      width: 300px;
+      background-color: #fce87a;
+      cursor: pointer;
+      border-color: #fce87a;
+      font-family: fantasy;
+      font-size: large;
+        }
+        h2{
+          font-family: fantasy;
+        }
+      #signuppage{
+      display: flex;
+      gap: 400px;
+      justify-content: center;
+      font-family: fantasy;
+      font-size: x-large;
+      border-radius: 50px;
+      
+        }
+        #signuppage a{
+          text-decoration:none;
+          color: rgb(38, 118, 38);
+        }
+        #signupform input{
+      width: 60%;
+      height: 50px;
+      margin-block: 50px;
+      background-color: #fdeb83;
+      border: none;
+      border-radius: 8px;
+      display: grid;
+      margin-left: 25%;
+      font-size: large;
+      margin-left: 180px;
+        }
+       
+        #loginform input{
+          font-family: fantasy;
+          margin-block: 30px;
+      width: 60%;
+      height: 60px;
+      background-color: #fdeb83;
+      border: none;
+      border-radius: 8px;
+      margin-top: 100px;
+      margin-left: 20%;
+      font-size: larger;
+      
+            }
+            #loginform button{
+              margin-left: 300px;
+              height: 50px;
+              width: 300px;
+              background-color: #fce87a;
+              cursor: pointer;
+              border-color: #fce87a;
+              font-family: fantasy;
+              font-size: large;
+              margin-top: 50px;
+                }
+            #loginform{
+      border-radius: 50px;
+      font-family: fantasy;
+      width: 900px;
+      height: 850px;
+      margin-left: 0px;
+      font-size: x-large;
+      font-size: large;
+      border: solid black;
+      /* background-color: rgb(219, 235, 219); */
+      
+      
+            }
+            h2{
+      text-align: center;
+            }
+            #landingpage h3{
+      color:rgb(44, 73, 44);
+      font-size: 18px;
+      font-weight: 1000px;
+      margin-bottom: 0px;
+      font-family: fantasy;
+      
+            }
+            #landingpage img{
+              margin-left: 4px;
+              width: 250px;
+              height: 250px;
+              object-fit: cover;
+              margin-top: 0px;
+            }
+            #logo img{
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      
+            }
+           
+      #landingpage p{
+       text-align: center;
+      color:rgb(44, 73, 44);
+      font-size: 3px; 
+      font-family: fantasy;
+      
+        }
+        
+      #select {
+      display: flex;
+      justify-content: space-evenly;
+      
+            }
+            #select button{
+      width: 150px;
+      height:40px;
+      border-radius: 15px;
+      background-color:#fdeb83 ;
+      border:solid 1px rgb(68, 156, 68);
+      cursor: pointer;
+      
+            }
+            
+            #heading{
+              text-align: center;
+              font-family: fantasy;
+      
+      
+            }
+            
+           
+            #category{
+              display: flex;
+              gap: 20px;
+              margin-top: 50px;
+              font-family: fantasy;
+      
+            }
+            #content{
+      margin-top: 21px;
+      
+            }
+            .title{
+      text-align: center;
+      font-family: fantasy;
+      
+            }
+             .create{
+              background-color:#fdeb83; 
+              width:900px;
+              height: 600px;
+              border-radius: 10px;
+              margin-left: 400px;
+              font-family: fantasy;
+      
+            }
+            .create input{
+              font-family: fantasy;
+              width: 300px;
+              height: 45px;
+              margin-left: 200px;
+              font-size: x-large;
+              border-radius: 10px;
+              border: none;
+              margin-block: 20px;
+      
+            }
+            #entertasks input{
+      width: 300px;
+      height: 50px;
+      margin-top: 150px;
+      margin-left: 200px;
+      font-family: fantasy;
+      
+            }
+            #addtasks input{
+              width: 100px;
+              font-size: medium;
+              font-family: fantasy;
+              height: 40px;
+              margin-right: 20px;
+      
+            }
+            hr{
+              width: 70%;
+      
+            }
+            h3{
+              text-align: center;
+            }
+            .create p{
+              font-size: x-large;
+      font-family: fantasy;
+      text-align: center;
+      
+            }
+            input button{
+             background-color:black;
+             color: white;
+             width:100px ;
+             margin-left: 50%;
+      
+            }
+            #title{
+      background-color: rgb(104, 201, 104);
+      color: white;
+      width:1000px;
+      height: 90px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      font-family: fantasy;
+      font-size: xx-large;
+      
+      
+            }
+           
+            fieldset{
+      background-color: rgb(104, 201, 104);
+      height: 500px;
+      width: 800px;
+      border-radius: 20px;
+      margin-left: 500px;
+      border: none;
+      margin-top: 100px;
+      
+            }
+            #task-counters{
+              margin-bottom: 100px;
+            }
+          
+      
+      
+      }
+      @media screen and (min-width:412px) and (max-width:915px){
+        body {
+          font-family: fantasy;
+        }
+       
+        .topnav {
+          background-color: rgb(150, 233, 150);
+          font-family: fantasy;
+          border-radius: 20px;
+          gap: 50px;
+          height: 90px;
+          text-decoration: none;
+      
+        }
+        
+      
+        
+        .topnav a {
+          color: black;
+          padding: 14px 9px;
+          text-decoration: none;
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+        
+        .topnav img{
+      margin-top: 16px;
+      margin-left: 15px;
+      
+        }
+        .topnav a.icon {
+          float: right;
+        }
+        
+        .topnav a:hover {
+          background-color:white;
+          color: black;
+        }
+       
+        .active {
+          background-color: #fdeb83;
+          color: white;
+        }
+        #signupform {
+      /* background-color: rgb(219, 235, 219); */
+      border-radius: 50px;
+      border: solid black;
+      font-family: fantasy;
+      width: 1100px;
+      height: 1000px;
+
+      font-size:large;
+      
+        }
+        #signupform button{
+      margin-left: 200px;
+      height: 40px;
+      width: 100px;
+      background-color: #fce87a;
+      cursor: pointer;
+      border-color: #fce87a;
+      font-family: fantasy;
+      font-size: small;
+        }
+        h2{
+          font-family: fantasy;
+          margin-left: 150px;
+        }
+      #signuppage{
+      display: flex;
+      justify-content: center;
+      font-family: fantasy;
+      font-size: medium;
+      border-radius: 50px;
+      
+        }
+        #signuppage a{
+          text-decoration:none;
+          color: rgb(38, 118, 38);
+        }
+        #signupform input{
+      width: 50%;
+      height: 50px;
+      margin-block: 10px;
+      background-color: #fdeb83;
+      border: none;
+      border-radius: 8px;
+      /* display: grid; */
+      /* margin-right:20px; */
+      font-size: small;
+      margin-right: 20px;
+      
+      /* margin-right: 280px; */
+        }
+       #accountreview{
+font-size: x-small;
+margin-right: 100px;
+
+       }
+        #loginform input{
+          font-family: fantasy;
+          margin-block: 30px;
+      width: 60%;
+      height: 60px;
+      background-color: #fdeb83;
+      border: none;
+      border-radius: 8px;
+      margin-top: 100px;
+      margin-left: 20%;
+      font-size: small;
+      
+            }
+            #loginform button{
+              margin-left: 300px;
+              height: 50px;
+              width: 300px;
+              background-color: #fce87a;
+              cursor: pointer;
+              border-color: #fce87a;
+              font-family: fantasy;
+              font-size: large;
+              margin-top: 150px;
+                }
+            #loginform{
+      border-radius: 50px;
+      font-family: fantasy;
+      width: 900px;
+      height: 800px;
+      margin-left: 400px;
+      font-size: x-large;
+      font-size: large;
+      border: solid black;
+      /* background-color: rgb(219, 235, 219); */
+      
+      
+            }
+            h2{
+      text-align: center;
+            }
+            #landingpage h3{
+      color:rgb(44, 73, 44);
+      font-size: 50px;
+      font-weight: 1000px;
+      margin-bottom: 20px;
+      font-family: fantasy;
+      
+            }
+            #landingpage img{
+              margin-left: 500px;
+              width: 900px;
+              height: 500px;
+              object-fit: cover;
+              margin-top: 20px;
+            }
+            #logo img{
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      
+            }
+           
+      #landingpage p{
+       text-align: center;
+      color:rgb(44, 73, 44);
+      font-size: 22px; 
+      -webkit-line-clamp: 3;
+      font-family: fantasy;
+      
+        }
+        
+      #select {
+      display: flex;
+      justify-content: space-evenly;
+      
+            }
+            #select button{
+      width: 150px;
+      height:40px;
+      border-radius: 15px;
+      background-color:#fdeb83 ;
+      border:solid 1px rgb(68, 156, 68);
+      cursor: pointer;
+      
+            }
+            
+            #heading{
+              text-align: center;
+              font-family: fantasy;
+      
+      
+            }
+            
+           
+            #category{
+              display: flex;
+              gap: 20px;
+              margin-top: 50px;
+              font-family: fantasy;
+      
+            }
+            #content{
+      margin-top: 21px;
+      
+            }
+            .title{
+      text-align: center;
+      font-family: fantasy;
+      
+            }
+             .create{
+              background-color:#fdeb83; 
+              width:900px;
+              height: 600px;
+              border-radius: 10px;
+              margin-left: 400px;
+              font-family: fantasy;
+      
+            }
+            .create input{
+              font-family: fantasy;
+              width: 300px;
+              height: 45px;
+              margin-left: 200px;
+              font-size: x-large;
+              border-radius: 10px;
+              border: none;
+              margin-block: 20px;
+      
+            }
+            #entertasks input{
+      width: 300px;
+      height: 50px;
+      margin-top: 150px;
+      margin-left: 200px;
+      font-family: fantasy;
+      
+            }
+            #addtasks input{
+              width: 100px;
+              font-size: medium;
+              font-family: fantasy;
+              height: 40px;
+              margin-right: 20px;
+      
+            }
+            hr{
+              width: 70%;
+      
+            }
+            h3{
+              text-align: center;
+            }
+            .create p{
+              font-size: x-large;
+      font-family: fantasy;
+      text-align: center;
+      
+            }
+            input button{
+             background-color:black;
+             color: white;
+             width:100px ;
+             margin-left: 50%;
+      
+            }
+            #title{
+      background-color: rgb(104, 201, 104);
+      color: white;
+      width:1000px;
+      height: 90px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      font-family: fantasy;
+      font-size: xx-large;
+      
+      
+            }
+           
+            fieldset{
+      background-color: rgb(104, 201, 104);
+      height: 500px;
+      width: 800px;
+      border-radius: 20px;
+      margin-left: 500px;
+      border: none;
+      margin-top: 100px;
+      
+            }     
+            
+            
+      }
