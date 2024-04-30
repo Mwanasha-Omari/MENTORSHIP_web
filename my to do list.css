@@ -16,7 +16,10 @@ ul {
     -ms-user-select: none;
     user-select: none;
   }
-  
+  .checked a{
+   color: green;
+   text-decoration: none; 
+  }
   ul li:nth-child(odd) {
     background: #f9f9f9;
   }
@@ -271,7 +274,8 @@ margin-left: 15px;
       background-color: rgb(150, 233, 150);
       font-family: fantasy;
       border-radius: 20px;
-      height: 90px;
+      height: 80px;
+
       text-decoration: none;
   
     }
@@ -280,10 +284,10 @@ margin-left: 15px;
     
     .topnav a {
       color: black;
-      padding: 35px 0px;
+      padding: 30px 1px;
       text-decoration: none;
-      font-size: 10px;
-      margin-bottom: 30px;
+      font-size: 5px;
+
     }
     
     .topnav img{
